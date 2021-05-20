@@ -8,6 +8,8 @@ var secondaries;
 var doneTime = 1750;
 var drawSecondaries = true;
 
+//helper functions. this is pretty spaghetti-esque
+
 export function drawMap(svg, path, usroads, proj, stations) {
   console.log(stations)
   svg.append("rect").attr("height", "100%").attr("width", "100%").attr("fill", "black")
