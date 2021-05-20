@@ -20,7 +20,7 @@ d3.csv("http://localhost:8000/stations.txt").then(function(data) {
 		})
 		myDat = data;
 		console.log(myDat)
-		myDat = myDat.filter(function(value, index, Arr) {
+		myDat = myDat.filter(function(value, index, arr) {
 		    return index%150 == 0;
 		});
 	});
