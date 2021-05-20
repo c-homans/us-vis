@@ -1,3 +1,4 @@
+#short script to convert DoT traffic station data into a format my javascript can parse
 import io
 import string
 
