@@ -1,0 +1,23 @@
+{
+  "name": "us-vis",
+  "version": "1.0.0",
+  "description": "This is the code for a recreational project to visualize the traffic usage of roads across the United States in d3.js (https://d3js.org). It's messy and still very much a WIP (and will be until I get around to refactoring/improving)",
+  "main": "functions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-homans/us-vis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c-homans/us-vis/issues"
+  },
+  "homepage": "https://github.com/c-homans/us-vis#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.26.0"
+  }
+}
